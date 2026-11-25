@@ -321,6 +321,4 @@ openapi.yaml       hand-written OpenAPI 3 description
 postman/           Postman collection
 docker-compose.yml Postgres
 ```
-"# task-api" 
-"# " 
-"# task-api" 
+
