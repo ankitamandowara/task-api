@@ -18,7 +18,7 @@ source .venv/bin/activate            # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
 # 2. Postgres in Docker
-docker compose up -d                  # starts Postgres 16 on localhost:5432 (db: tasksdb, user/password: postgres)
+docker compose up -d                  # starts Postgres 16 on localhost:5433 (db: tasksdb, user/password: postgres)
 
 # 3. Migrate and run
 python manage.py migrate
